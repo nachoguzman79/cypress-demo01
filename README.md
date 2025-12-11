@@ -15,31 +15,53 @@ It is designed as a professional portfolio project for QA Automation interviews.
 
 ## 📁 Project Structure
 
-cypress/
-e2e/
-login.cy.js # Main test file with robust login flow
-fixtures/
-support/
-cypress.config.js
-package.json
-README.md
-
+├── cypress
+│   ├── e2e
+│   │   └── login.cy.js
+│   ├── pages
+│   │   ├── InventoryPage.js
+│   │   └── LoginPage.js
+│   ├── screenshots
+│   ├── support
+│   │   ├── commands.js
+│   │   └── e2e.js
+│   └── videos
+├── cypress.config.js
+├── package.json
+├── package-lock.json
+└── README.md
 
 ## ▶️ Installation
 
-Install dependencies:
+Install dependencies: npm install
 
-```bash
-npm install
-
-▶️ Running Tests
+## ▶️ Running Tests
 
 - Open Cypress Test Runner (interactive mode): npx cypress open
 
 
 - Run tests headlessly (CLI): npx cypress run
 
+## 🤖 Continuous Integration (GitHub Actions)
+- This repository includes an automated workflow located at: .github/workflows/cypress.yml
+
+## The workflow:
+
++ Runs on every push or pull request to main
+
++ Installs Node.js 18
+
++ Installs project dependencies
+
++ Executes Cypress tests in headless mode
+
++ Shows results directly in the GitHub Actions tab
+
++ No manual execution is required — tests run automatically on GitHub.
+
+
 
 🌐 Website Under Test: https://www.saucedemo.com/
+A public demo site used for QA and automation practice
 
 👤 Author: Ignacio Guzman
