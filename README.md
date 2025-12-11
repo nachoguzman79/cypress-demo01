@@ -24,6 +24,22 @@ cypress.config.js
 package.json
 README.md
 
+
+## ▶️ Installation
+
+Install dependencies:
+
+```bash
+npm install
+
+▶️ Running Tests
+
+- Open Cypress Test Runner (interactive mode): npx cypress open
+
+
+- Run tests headlessly (CLI): npx cypress run
+
+
 🌐 Website Under Test: https://www.saucedemo.com/
 
 👤 Author: Ignacio Guzman
