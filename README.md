@@ -1,3 +1,5 @@
+[![Cypress Tests](https://github.com/nachoguzman79/cypress-demo01/actions/workflows/cypress.yml/badge.svg)](https://github.com/nachoguzman79/cypress-demo01/actions/workflows/cypress.yml)
+
 # Cypress Automation Project - Saucedemo
 
 This project demonstrates **end-to-end (E2E) test automation** using **Cypress**, focused on login flows.  
