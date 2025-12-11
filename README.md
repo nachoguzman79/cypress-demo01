@@ -1,17 +1,26 @@
-[![Cypress Tests](https://github.com/nachoguzman79/cypress-demo01/actions/workflows/cypress.yml/badge.svg)](https://github.com/nachoguzman79/cypress-demo01/actions/workflows/cypress.yml)
-
 # Cypress Automation Project - Saucedemo
 
+[![Cypress Tests](https://github.com/nachoguzman79/cypress-demo01/actions/workflows/cypress.yml/badge.svg)](https://github.com/nachoguzman79/cypress-demo01/actions/workflows/cypress.yml)
+
+
 This project demonstrates **end-to-end (E2E) test automation** using **Cypress**, focused on login flows.  
-It is designed as a professional portfolio project for QA Automation interviews.
 
-## Features
 
-- Successful login with valid credentials
-- Handling login errors with invalid credentials
-- Logout after successful login
-- Clear structure, easy to read and maintain
-- Ready to be run locally or in CI/CD pipelines
+🌟 Features
+
++ End-to-end login automation
+
++ POM (Page Object Model) structure
+
++ Ready for CI/CD execution
+
+🧪 Test Scenarios
+
++ Login with valid credentials → user is redirected to inventory page
+
++ Login with invalid credentials → error message is displayed
+
++ Logout → user is redirected to login page
 
 ## 📁 Project Structure
 
@@ -21,15 +30,13 @@ It is designed as a professional portfolio project for QA Automation interviews.
 │   ├── pages
 │   │   ├── InventoryPage.js
 │   │   └── LoginPage.js
-│   ├── screenshots
-│   ├── support
-│   │   ├── commands.js
-│   │   └── e2e.js
-│   └── videos
+│   └── support
+│       └── e2e.js
 ├── cypress.config.js
 ├── package.json
 ├── package-lock.json
 └── README.md
+
 
 ## ▶️ Installation
 
